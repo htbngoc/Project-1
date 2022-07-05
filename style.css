@@ -55,14 +55,12 @@ footer {
   color: #f96108;
 }
 .shoppingButton {
-  display: inline;
-  margin: 0px 5% 0px 90%;
+  float: right;
   border: dotted;
   background-color: white;
   border-radius: 50%;
   padding: 6px 10px;
   font-size: 40px;
-
   box-shadow: 5px 5px 10px rgba(21, 48, 123, 0.2);
   transition: all 200ms ease-in-out;
 }
@@ -80,7 +78,7 @@ footer {
   border: dashed;
   font-size: 35px;
   border-radius: 50%;
-  margin: 10px 10px;
+  margin: 10px auto;
   padding: 1.8px 10px;
   background-color: white;
   transition: all 200ms ease-in-out;
